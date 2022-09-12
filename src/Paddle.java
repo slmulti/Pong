@@ -14,7 +14,7 @@ public class Paddle extends Rectangle {
         this.id=id;
     }
 
-    public void KeyPressed(KeyEvent e){
+    public void keyPressed(KeyEvent e){
         switch(id){
             case 1:
                 if(e.getKeyCode()==KeyEvent.VK_W){
@@ -38,7 +38,7 @@ public class Paddle extends Rectangle {
                 break;
         }
     }
-    public void KeyReleased(KeyEvent e){
+    public void keyReleased(KeyEvent e){
         switch(id){
             case 1:
                 if(e.getKeyCode()==KeyEvent.VK_W){
